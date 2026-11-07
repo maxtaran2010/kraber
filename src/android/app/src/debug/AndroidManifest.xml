@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Только debug: отладочный мост часы-эмулятор → телефон-эмулятор (watch/DebugBridge.kt). В release интернета нет. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" tools:node="replace" />
+</manifest>

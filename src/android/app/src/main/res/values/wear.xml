@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- По этой метке часы находят телефон с Крабером (сохраняется при сжатии ресурсов — res/raw/keep.xml) -->
+    <string-array name="android_wear_capabilities" translatable="false">
+        <item>glagol_phone</item>
+    </string-array>
+</resources>
