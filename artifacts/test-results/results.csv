@@ -1,0 +1,7 @@
+test_id,timestamp_utc,commit,file_name,file_size_bytes,duration_seconds,format,speakers_ref,speakers_found,noise_condition,device,wer_percent,der_percent,start_err_ms,end_err_ms,processing_seconds,rtf,success,notes
+dev-001,2026-11-06T20:38:00Z,uncommitted,piper_2spk.wav,2320360,72.51,wav 16k mono,2,2,clean,emulator arm64 (Apple M5 Pro host),6.33,4.01,432,594,6.14,0.085,true,границы: эталон дробит реплики одного спикера чаще наших (пауза < 1 с)
+dev-002,2026-11-06T20:38:00Z,uncommitted,piper_3spk.wav,2981738,93.18,wav 16k mono,3,3,clean,emulator arm64 (Apple M5 Pro host),2.84,5.22,56,139,4.29,0.046,true,
+dev-003,2026-11-06T20:38:00Z,uncommitted,piper_4spk.wav,3635222,113.60,wav 16k mono,4,4,clean,emulator arm64 (Apple M5 Pro host),4.56,5.06,49,149,17.63,0.155,true,эмулятор замедлен macOS App Nap (окно перекрыто); на Python-прототипе RTF 0.093
+dev-004,2026-11-06T20:38:00Z,uncommitted,piper_fast.wav,1187208,37.10,wav 16k mono,3,3,fast speech + overlaps,emulator arm64 (Apple M5 Pro host),12.79,14.77,150,228,6.51,0.175,true,быстрая речь и короткие реплики без пауз
+dev-005,2026-11-06T20:38:00Z,uncommitted,piper_noisy.m4a,1184552,93.18,m4a AAC 44.1k stereo,3,3,background noise,emulator arm64 (Apple M5 Pro host),5.21,6.78,49,204,33.01,0.354,true,декодирование AAC на эмуляторе 10.7 с (программный кодек); распознавание+диаризация 22 с
+dev-006,2026-11-06T20:38:00Z,uncommitted,dialog1.wav,1157428,36.17,wav 16k mono,3,3,clean (pitch-shifted voices),emulator arm64 (Apple M5 Pro host),4.84,6.22,62,146,5.30,0.147,true,

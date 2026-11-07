@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Только debug: мост часы-эмулятор → телефон-эмулятор через 10.0.2.2 + adb forward (без пары по Bluetooth) -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+</manifest>
