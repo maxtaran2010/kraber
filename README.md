@@ -58,7 +58,7 @@ adb -s <ip-часов>:<порт> install -r kraber-wear.apk
 
 ## Видео
 
-Ссылка будет добавлена.
+Видеодемо: [kraber-demo.mp4](https://github.com/maxtaran2010/kraber/releases/download/v1.0/kraber-demo.mp4) (запись работы приложения, около 6 минут).
 
 ## Сборка
 
